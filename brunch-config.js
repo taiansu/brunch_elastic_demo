@@ -4,9 +4,7 @@ exports.files = {
   stylesheets: {joinTo: 'app.css'},
   templates: {joinTo: 'app.js'},
   plugins: {
-    babel: {
-      ignore: [/web\/static\/vendor/]
-    }
+    babel: {}
   },
   npm: {
     enabled: true
